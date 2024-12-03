@@ -1,0 +1,11 @@
+nome = input("digite seu nome: ")
+sobrenome = input("Digite seu sobrenome: ")
+logra = input("Digite o Logradouro: ")
+numero = input("Digite o Número: ")
+bairro = input("Digite o Bairro: ")
+cidade = input("Digite a Cidade: ")
+estado = input("Digite o Estado: ")
+
+print(f"Prezado(a), {nome} {sobrenome}")
+print(f"Sua residencia está localizada no endereço: {logra}, {numero}")
+print(f"Situada no {bairro} - {estado}")
